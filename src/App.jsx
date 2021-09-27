@@ -3,9 +3,8 @@ const App = () => {
     <section>
       <header className="flex justify-end">
         <nav>
-          <a className="inline-block py-3 px-4">Gmail</a>
-          <a className="inline-block py-3 px-4">Imagens</a>
-          <a className="inline-block py-3 px-4">Google Apps</a>
+          <a className="inline-block py-3 px-4 font-light">Gmail</a>
+          <a className="inline-block py-3 px-4 font-light">Imagens</a>
           <img
             src="https://lh3.googleusercontent.com/ogw/ADea4I5fM47yd-ZLmGipUXnd5OdeyYwbEjwnCHmk_PvnuA=s32-c-mo"
             className="rounded-full inline-block py-3 px-4"
@@ -14,10 +13,9 @@ const App = () => {
       </header>
       <main className="h-screen w-full flex flex-col justify-center items-center">
         <img
-          src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
+          src="https://www.google.com/logos/doodles/2021/googles-23rd-birthday-6753651837109087-law.gif"
           className="mb-10"
         />
-
         <input className="w-1/2 h-10 mb-10 rounded-3xl border-2 hover:shadow-md md:w-1/4 lg:w-1/4 xl:1/4 2xl:1/4" />
         <section className="flex flex-row justify-evenly mb-10">
           <button className="bg-gray-200 py-2 px-4 font-light text-sm border hover:shadow-md ">
